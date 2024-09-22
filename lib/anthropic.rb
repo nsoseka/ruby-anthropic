@@ -51,7 +51,7 @@ module Anthropic
     DEFAULT_URI_BASE = 'https://api.anthropic.com/'.freeze
     DEFAULT_REQUEST_TIMEOUT = 120
     DEFAULT_LOG_ERRORS = true # show errros in development
-    ACCESS_TOKEN = ''.freeze
+    ACCESS_TOKEN = Anthropic::ACCESS_TOKEN
 
     def initialize
       @access_token = ACCESS_TOKEN

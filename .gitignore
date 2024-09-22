@@ -1,1 +1,1 @@
-./anthropic/token.rb
+lib/anthropic/token.rb
